@@ -1,6 +1,6 @@
 <?php
 /*データベースと接続するための記述開始*/
-$con = mysql_connect('localhost', 'test01', 'testk');
+$con = mysql_connect('localhost', 'DBユーザ名', 'DBパスワード');
 if (!$con) {
   exit('データベースに接続できませんでした。');
 }

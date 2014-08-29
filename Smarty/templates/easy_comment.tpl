@@ -11,9 +11,9 @@
     <form name="form1" method="POST" action="#">
         <input type="hidden" name="id" value="">
         <input type="hidden" name="mode" value="">
-        名前　　：<input type="text" name="name"><br>
+        名前　　：<input type="text" name="name" id="name"><br>
         コメント：<br>	
-        　　　　　<textarea name="comment" cols=40 rows=6></textarea><br>
+        　　　　　<textarea name="comment" id="comment" cols=40 rows=6></textarea><br>
         <input type="button" value="コメントする" onclick="fnSubmit()">
     </form><br>
 

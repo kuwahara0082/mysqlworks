@@ -1,7 +1,19 @@
 function fnSubmit() {
-	alert('コメントの登録が完了致しました。');
-	document.form1.mode.value = 'insert';
-	document.form1.submit();
+        var name = document.getElementById("name");
+        name.style.backgroundColor = "";
+        var comment = document.getElementById("comment");
+        comment.style.backgroundColor = "";
+
+        if(!name.value) {
+            alert('名前が入力されていません。');
+            name.style.backgroundColor = "#F08080";
+        } else if(!comment.value) {
+            alert('コメントが入力されていません。');
+            comment.style.backgroundColor = "#F08080";
+        } else {
+	    document.form1.mode.value = 'insert';
+	    document.form1.submit();
+        } 
 }
 
 function fnDelete(id) {
