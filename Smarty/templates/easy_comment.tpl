@@ -6,10 +6,11 @@
 <title>{$title}</title>
 </head>
 <body>
+    <h2>{$title}</h2>
     <form name="form1" method="POST" action="#">
-        名前：<input type="text" name="name"><br>
-        コメント：<br>
-        <textarea name="comment" cols=40 rows=6></textarea><br>
+        名前　　：<input type="text" name="name"><br>
+        コメント：<br>	
+        　　　　　<textarea name="comment" cols=40 rows=6></textarea><br>
         <input type="button" value="コメントする" onclick="fnSubmit()">
     </form>
 </body>

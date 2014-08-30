@@ -25,6 +25,7 @@ $smarty->template_dir = $path . 'templates';
 $smarty->compile_dir = $path . 'templates_c';
 # デフォルトの修飾子にescapeを指定します。
 $smarty->default_modifiers = array('escape');
+$smarty->assign('title', '簡単なコメントアプリ');
 
 //コメントの送信があればデータベースに登録する
 
