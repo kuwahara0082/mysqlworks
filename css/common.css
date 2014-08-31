@@ -1,0 +1,20 @@
+body{
+}
+
+.comment{
+	width: 700px;
+	height: 100px;
+	border: solid 1px;
+}
+
+.comment_date{
+	text-align: right;
+	margin-top: -25px;
+}
+
+.name{
+	width: 700px;
+	font-size: 1.2em;
+	font-family: Comic Sans MS;
+	font-weight: bolder;
+}
