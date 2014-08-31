@@ -18,7 +18,7 @@ if (!$result) {
 
 
 /*コメント処理用の記述開始*/
-$path = './smarty/';
+$path = './Smarty/';
 require_once $path . 'Smarty.class.php';
 $smarty = new Smarty();
 $smarty->template_dir = $path . 'templates';
