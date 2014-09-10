@@ -12,7 +12,9 @@
 </head>
 <body>
 <div class="wrap_comment">
+    <nav class="navbar navbar-default">
     <h2>{$title}</h2>
+    </nav>
     <form name="form1" method="POST" action="#">
         <input type="hidden" name="id" value="">
         <input type="hidden" name="mode" value="">
